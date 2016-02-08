@@ -14,6 +14,13 @@ export const setVisibilityFilter = (filter) => {
   }
 }
 
+export const setActiveProfileId = (profileId) => {
+  return {
+    type: 'SET_ACTIVE_PROFILE_ID',
+    profileId
+  }
+}
+
 export const toggleTodo = (id) => {
   return {
     type: 'TOGGLE_TODO',
